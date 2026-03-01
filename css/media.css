@@ -1,0 +1,464 @@
+@media screen and (max-width: 1340px) {
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .banner__title{
+        white-space: wrap;
+    }
+    .banner__left{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .banner__features{
+        margin-bottom: 40px;
+    }
+    .service__item--left{
+        position: relative;
+        z-index: 1;
+    }
+    .autoservice__left{
+        max-width: 500px;
+    }
+    .autoservice__right{
+        max-width: calc(100% - 540px);
+    }
+    .special-banner__content{
+        margin-top: 120px;
+    }
+    .special-banner__left{
+        max-width: 500px;
+    }
+    .special-banner__right{
+        max-width: calc(100% - 520px);
+    }
+    .special-banner__right .btn__red{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner__right{
+        max-width: 500px;
+    }
+    .banner__left{
+        max-width: calc(100% - 500px);
+        padding-bottom: 50px;
+    }
+    .banner__actions{
+        flex-direction: column;
+    }
+    .banner__title{
+        font-size: 48px ;
+    }
+    .btn__red{
+        text-align: center;
+    }
+    .btn__gray--opacity{
+        text-align: center;
+    }
+    .service__item{
+        width: calc(100%/2 - 10px);
+    }
+    .autoservice__left{
+        max-width: 450px;
+    }
+    .autoservice__right {
+        max-width: calc(100% - 470px);
+    }
+    .autoservice__content{
+        gap: 20px;
+    }
+    .special-banner__right h2{
+        font-size: 36px;
+    }
+    .feature__item{
+        width: calc(100%/2 - 10px);
+    }
+
+    .calculator__top h3{
+        font-size: 24px;
+    }
+    .calculator__right{
+        max-width: 400px;
+
+    }
+    .calculator__left{
+        max-width: calc(100% -  440px);
+    }
+    .section__title{
+        font-size: 46px;
+    }
+    .mark__item img{
+        max-width: 70%;
+    }
+    .footer__col:first-child{
+        margin-right: 30px;
+    }
+    .footer__tel{
+        font-size: 16px;
+    }
+    .footer__menu a{
+        font-size: 14px;
+    }
+    .footer__bottom a{
+        font-size: 14px;
+    }
+    .banner__left{
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .banner__content{
+        flex-direction: column-reverse;
+    }
+    .banner__right{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .banner__right img{
+        position: relative;
+        max-width: 400px;
+    }
+    .banner__left{
+        max-width: 100%;
+        padding-right: 40px;
+    }
+    .banner__title{
+        text-align: center  ;
+    }
+    .banner__text{
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+    .banner__features{
+        justify-content: center;
+    }
+    .service__item h3{
+        font-size: 20px;
+    }
+    .autoservice{
+        padding-top: 60px;
+    }
+    .autoservice__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .autoservice__right{
+        max-width: 100%;
+    }
+    .special-banner__content{
+        flex-direction: column;
+        background: none;
+        margin-top: 60px;
+    }
+    .special-banner__left img{
+        position: relative;
+    }
+    .special-banner__right{
+        background: url('../images/special.png');
+        max-width: 100%;
+        padding: 50px;
+        border-radius: 8px;
+    }
+    .special-banner__left{
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto -20px;
+        z-index: -1;
+    }
+    .special-banner__right h2{
+        text-align: center;
+    }
+    .special-banner__right p{
+        text-align: center;
+    }
+    .special-banner__right .btn__red{
+        margin: 20px auto 0;
+    }
+    .features{
+        padding-top: 60px;
+    }
+    .calculator{
+        padding-top: 60px;
+    }
+    .calculator__content{
+        flex-direction: column;
+        background: none;
+    }
+    .calculator__left{
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-end;
+    }
+    .calculator__left img{
+        position: relative;
+    }
+    .calculator__right{
+        max-width: 100%;
+        background: url("../images/calc-bg.png") no-repeat;
+        padding: 50px;
+        border-radius: 8px;
+    }
+    .calculator__block{
+        margin-top: 0;
+    }
+    .calculator__top{
+        padding: 20px;
+    }
+    .calculator__body{
+        padding: 20px;
+    }
+    .calculator__bottom{
+        padding: 20px;
+    }
+    .review{
+        padding-top: 60px;
+    }
+    .review__item{
+        width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+    .review__list{
+        flex-wrap: wrap;
+    }
+    .mark__item{
+        height: 120px;
+    }
+    .contact{
+        padding-top: 60px;
+    }
+    .contact__content{
+        flex-direction: column-reverse;
+        height: auto;
+        background-size: cover;
+        gap: 20px;
+    }
+    .contact__left img{
+        position: relative;
+    }
+
+    .contact__right{
+        margin: 0 auto;
+    }
+    .form__row{
+        width: 100%;
+    }
+    .contact__right .btn__red{
+        width: 100%;
+    }
+    .contact__left img{
+        max-width: 400px;
+    }
+    .map{
+        margin-top: 60px;
+    }
+    .footer__top{
+        flex-wrap: wrap;
+    }
+    .footer__col{
+        width: calc(100%/3);
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__col:first-child{
+        width: 100%;
+    }
+
+    .footer__col:first-child{
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__address p{
+        text-align: center;
+    }
+    .footer__link{
+        text-align: center;
+    }
+    .footer__col:last-child{
+        margin-left: 0;
+        width: 100%;
+        text-align: center  ;
+    }
+    .footer__col:last-child h3{
+        text-align: center;
+    }
+    .footer__col:last-child p{
+        text-align: center;
+    }
+    .footer__tel{
+        justify-content: center;
+    }
+    .header__phone--number{
+        font-size: 16px;
+    }
+    .btn__request{
+        font-size: 12px;
+    }
+    .header__logo{
+        width: 150px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .header__top--content{
+        gap: 20px;
+        align-items: center;
+    }
+    .header__address{
+        display: none;
+    }
+    .btn__menu{
+        display: flex;
+        background: transparent;
+        border: none;
+        height: 30px;
+        width: 30px;
+    }
+    .btn__menu svg{
+        width: 100%;
+        height: 100%;
+    }
+    .nav{
+        display: none;
+    }
+    .nav.active{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        z-index: 9;
+    }
+    .menu{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu__item:last-child{
+        margin-left: 0;
+    }
+    .banner__title{
+        font-size: 40px;
+    }
+    .banner__text{
+        font-size: 16px;
+    }
+    .services{
+        padding-top: 60px;
+    }
+    .section__title {
+        font-size: 40px;
+    }
+    .autoservice__content{
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .banner__title{
+        font-size: 34px;
+    }
+    .banner__left{
+        padding: 20px;
+    }
+    .service__item{
+        width: 100%;
+    }
+    .autoservice__left{
+        max-width: 100%;
+    }
+    .feature__item{
+        width: 100%;
+    }
+    .section__title {
+        font-size: 30px;
+    }
+    .calculator__left{
+        max-width: 400px;
+    }
+    .mark__item{
+        width: calc(100%/3);
+    }
+    .mark__item:nth-child(3n){
+        border-right: 0;
+    }
+    .mark__item:nth-last-child(-n+3){
+        border-top:1px solid #D5D5D5 ;
+    }
+    .footer__col h3{
+        text-align: center;
+    }
+    .footer__menu a{
+        text-align: center;
+
+    }
+    .footer__menu {
+        align-items: center;
+    }
+    .contact__right .btn__red{
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media  screen and (max-width: 480px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header__logo {
+        width: 100px;
+    }
+    .banner__content{
+        margin-top: 20px;
+    }
+    .banner__features{
+        flex-wrap: wrap;
+    }
+    .calculator__right{
+        padding: 30px;
+    }
+    .section__title{
+        line-height: 34px
+    }
+    .contact__right h2{
+        font-size: 30px;
+    }
+    .contact__right{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer__col{
+        width: 100%;
+    }
+    .footer__logo{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .footer__address p:first-child{
+        font-size: 16px;
+    }
+    .footer__address p{
+        font-size: 14px;
+    }
+    .footer__address .btn__red{
+        font-size: 14px;
+    }
+    .footer__link{
+        font-size: 14px;
+    }
+    .footer__col h3{
+        font-size: 16px;
+    }
+    .footer__menu a {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .footer__bottom p{
+        font-size: 12px;
+    }
+}
