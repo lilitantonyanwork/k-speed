@@ -305,6 +305,7 @@ input {
     text-align: left;
     text-decoration-line: underline;
     color: #fff;
+    align-items: flex-end;
     opacity: .27;
 }
 .service__item--right{
