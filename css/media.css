@@ -3,6 +3,12 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+    .repair__left{
+        max-width: 650px;
+    }
+    .repair__right{
+        max-width: calc(100% - 690px);
+    }
 }
 @media screen and (max-width: 1200px) {
     .banner__title{
@@ -37,8 +43,18 @@
     .special-banner__right .btn__red{
         margin-top: 20px;
     }
+    .point__title{
+        font-size: 20px;
+    }
 }
-
+@media screen and (max-width: 1100px) {
+    .repair__left {
+        max-width: 550px;
+    }
+    .repair__right{
+        max-width: calc(100% - 590px);
+    }
+}
 @media screen and (max-width: 1024px) {
     .banner__right{
         max-width: 500px;
@@ -109,6 +125,43 @@
     .banner__left{
         position: relative;
         z-index: 1;
+    }
+    .repair-contact .contact__right h2{
+        font-size: 30px;
+    }
+    .repair__right .section__title{
+        font-size: 30px;
+    }
+    .repair__actions{
+        flex-wrap: wrap;
+    }
+    .repair__actions .btn__blue:first-child{
+        width: 100%;
+    }
+    .point__item{
+        width: calc(100%/2 - 10px);
+    }
+    .point__list{
+        flex-wrap: wrap;
+        gap: 60px 20px;
+    }
+    .diagnostic__item{
+        width: calc(100%/2 - 10px);
+    }
+    .price__content{
+        flex-direction: column;
+    }
+    .price__list{
+        width: 100%;
+    }
+    .faq__content{
+        flex-direction: column;
+    }
+    .faq__right{
+        max-width: 100%;
+    }
+    .repair-contact .contact__content{
+        padding-left: 40px;
     }
 }
 
@@ -306,7 +359,63 @@
     .header__logo{
         width: 150px;
     }
-
+    .repair__content{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .repair__right{
+        max-width: 100%;
+        padding-left: 20px;
+        padding-top: 0;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
+    .repair__actions{
+        flex-wrap: nowrap;
+    }
+    .repair__actions .btn__blue:first-child{
+        width: auto;
+    }
+    .repair-contact .contact__content{
+        flex-direction: column;
+        gap: 0;
+        padding-left: 0;
+    }
+    .repair-contact{
+        height: auto;
+        background: transparent;
+        padding-top: 0;
+    }
+    .repair-contact .contact__left{
+        max-width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .repair-contact .contact__right{
+        max-width: 100%;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+    .repair-contact .contact__right form{
+        max-width: 480px;
+        width: 100%;
+    }
+    .repair-contact .contact__right .btn__red{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .repair-contact .contact__right h2{
+        text-align: center;
+    }
+    .repair-contact .contact__right p{
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+    .repair-contact .contact__right form{
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 768px){
     .header__top--content{
@@ -358,6 +467,31 @@
     .autoservice__content{
         padding: 30px;
     }
+    .repair__left{
+        max-width: 100%;
+    }
+    .price{
+        padding-top: 80px;
+    }
+    .repair-contact{
+        margin-top: 80px;
+    }
+    .diagnostics{
+        padding-top: 80px;
+    }
+    .gallery{
+        padding-top: 80px;
+    }
+    .gallery__item{
+        width: calc(100%/ 2 - 10px);
+    }
+    .faq__left{
+        max-width: 100%;
+    }
+    .faq__left img{
+        width: 100%;
+        object-fit: cover;
+    }
 }
 @media screen and (max-width: 600px){
     .banner__title{
@@ -403,6 +537,39 @@
     .contact__right .btn__red{
         text-align: center;
         justify-content: center;
+    }
+    .point__item{
+        width: 100%;
+    }
+    .points{
+        padding-top: 80px;
+    }
+    .diagnostic__item{
+        width: 100%;
+    }
+    .faq__title{
+        padding: 15px 65px 15px 30px;
+    }
+    .faq__title:after{
+
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        width: 20px;
+        height: 20px;
+        background-size: 100% 100%;
+    }
+    .faq__item[open] .faq__title:after{
+        background-size: 100% 100%;
+    }
+    .contact__left img{
+        width: 100%;
+    }
+    .breadcrumbs__list{
+        flex-wrap: wrap;
+    }
+    .repair-contact .contact__right{
+        padding-left: 20px;
     }
 }
 @media  screen and (max-width: 480px) {
@@ -460,5 +627,38 @@
     }
     .footer__bottom p{
         font-size: 12px;
+    }
+    .btn__call{
+        width: 80px;
+        height: 80px;
+        right: 20px;
+        top: 60px;
+    }
+    .faq__right{
+        padding-top: 0;
+    }
+    .faq__title{
+        padding: 15px 65px 15px 30px;
+        font-size: 18px;
+    }
+    .repair__actions{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .repair__actions .btn__blue:first-child{
+        width: 100%;
+    }
+    .price__row{
+        flex-direction: column;
+    }
+    .price__top{
+        font-size: 18px;
+    }
+    .diagnostic__item{
+        padding: 20px;
+    }
+    .repair__right .section__title{
+        font-size: 24px;
+        line-height: 34px;
     }
 }
