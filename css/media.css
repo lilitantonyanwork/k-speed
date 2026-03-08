@@ -207,6 +207,10 @@
     .project__right{
         max-width: 100%;
     }
+    .news__item{
+        width: calc(100%/2 - 10px);
+    }
+
 }
 
 @media screen and (max-width: 900px){
@@ -460,6 +464,10 @@
     .repair-contact .contact__right form{
         margin: 0 auto;
     }
+    .news__tag{
+        flex-wrap: wrap;
+
+    }
 }
 @media screen and (max-width: 768px){
     .header__top--content{
@@ -543,6 +551,31 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    .news__content{
+        padding: 20px;
+    }
+    .news__item:first-child .news__title, .news__item:nth-child(2) .news__title {
+        font-size: 18px;
+    }
+    .news__title{
+        font-size: 18px;
+    }
+    .news__tag span{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .news__item:first-child .news__date, .news__item:nth-child(2) .news__date {
+        font-size: 14px;
+    }
+    .news__date{
+        font-size: 14px;
+    }
+    .news__title{
+        margin-bottom: 10px;
+    }
+    .news__img img{
+        height: 280px;
     }
 }
 @media screen and (max-width: 600px){
@@ -672,7 +705,9 @@
     .tuning__content{
         padding: 20px;
     }
-
+    .news__item, .news__item:nth-child(2), .news__item:first-child{
+        width: 100%;
+    }
 }
 @media  screen and (max-width: 480px) {
     .container{
@@ -771,5 +806,8 @@
     }
     .projects{
         padding-top: 80px;
+    }
+    .news__img img {
+        height: 250px;
     }
 }
