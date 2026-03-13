@@ -17,6 +17,12 @@
     .repair__right{
         max-width: calc(100% - 690px);
     }
+    .contact-page .repair__left {
+        max-width: 550px;
+    }
+    .contact-page .repair__right{
+        max-width: calc(100% - 570px);
+    }
 }
 @media screen and (max-width: 1200px) {
     .banner__title{
@@ -272,6 +278,16 @@
     .help__right {
         max-width: calc(100% - 590px);
     }
+    .contact-page .repair__content{
+        flex-direction: column;
+    }
+    .contact-page .repair__left{
+        max-width: 100%;
+    }
+    .contact-page .repair__right{
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 900px){
@@ -967,5 +983,8 @@
     }
     .news__img img {
         height: 250px;
+    }
+    .contact-page .repair__right{
+        padding-right: 30px;
     }
 }
