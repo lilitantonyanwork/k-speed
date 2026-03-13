@@ -1754,6 +1754,7 @@ footer{
     color: #111111;
     margin-bottom: 15px;
 }
+
 .news__images{
     gap: 11px;
     margin-bottom: 30px;
@@ -1802,4 +1803,206 @@ footer{
 }
 .related-news{
     padding-top: 110px;
+}
+.about .repair__content{
+    background: transparent;
+    min-height: 460px;
+}
+.about .repair__left{
+    max-width: 650px;
+}
+.about .repair__left img{
+    height: 460px;
+}
+.about .repair__right{
+    max-width: calc(100% - 690px);
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.about .repair__right p{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-bottom: 30px;
+}
+.about .repair__right .repair__actions{
+    margin-top: 0;
+}
+.about .btn__red{
+    width: 272px;
+    height: 57px;
+    background: #E92929;
+}
+.history{
+    padding-top: 110px;
+}
+.history__list{
+    margin-top: 40px;
+    gap: 20px;
+}
+.history__item{
+    width: 100%;
+    background: #111111;
+    border-radius: 8px;
+    padding: 24px 20px 30px;
+}
+.history__year{
+    background: #E92929;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 11px;
+}
+.history__item h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.history__item p{
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: 400;
+}
+.team{
+    padding-top: 110px;
+}
+.team__list{
+    margin-top: 40px;
+    justify-content: center;
+    gap: 59px 20px;
+}
+
+.team__item h3{
+    text-align: center;
+    margin-top: 25px;
+    color: #111111;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.team__item p{
+    color: #646464;
+    line-height: 1.55;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.about-contact{
+    height: 552px;
+}
+.about-contact .contact__content{
+    padding-left: 0;
+}
+.about-contact .contact__left{
+    max-width: 856px;
+    width: 100%;
+    height: 100%;
+}
+.about-contact .contact__left img{
+    height: 100%;
+    object-fit: cover;
+}
+.about-contact .contact__right{
+    padding-top: 60px;
+    max-width: calc(100% - 856px);
+}
+.about-contact .contact__right div{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 400;
+    font-family: 'Russo One', sans-serif;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.about-contact .contact__right div span{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.about-contact .contact__right .btn__red{
+    margin-top: 50px;
+    width: 208px;
+    height: 57px;
+}
+.help{
+    padding-top: 110px;
+}
+.help__content{
+    gap: 40px;
+    margin-top: 40px;
+}
+.help__left{
+    max-width: 760px;
+    width: 100%;
+}
+.help__right{
+    max-width: calc(100% - 800px);
+    width: 100%;
+}
+.help__right h3{
+    color: #111111;
+    font-weight: 400;
+    font-size: 34px;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.help__right p{
+    color: #646464;
+    font-size: 16px;
+    line-height: 1.55;
+    margin-bottom: 33px;
+}
+.help__right div{
+    gap: 20px;
+}
+.help__right div img{
+    width: calc(100%/2 - 10px);
+    border-radius: 8px;
+}
+.about-gallery{
+    padding-bottom: 80px;
+}
+.about-gallery .section__title{
+    font-size: 48px;
+}
+.about-gallery .gallery__list{
+    gap: 11px;
+}
+
+.about-gallery .gallery__item:first-child, .about-gallery .gallery__item:nth-child(2){
+    width: calc(100%/4 - 9px);
+}
+.about-gallery .gallery__item:nth-child(3){
+    width: calc(100%/2 - 5px);
+}
+.about-gallery .gallery__item:nth-child(4){
+    width: calc(100%/2 - 9px);
+}
+.about-gallery .gallery__item:nth-child(5){
+    width: calc(100%/2 - 2px);
+}
+.about-gallery .gallery__item:nth-child(5){
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+.about-gallery .gallery__item:nth-child(5) img{
+    width: calc(100%/2 - 6px);
+    height: auto;
+    border-radius: 8px;
 }
