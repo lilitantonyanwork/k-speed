@@ -5,6 +5,9 @@
     .tuning-contact .contact__right{
         max-width: 608px;
     }
+    .about-contact .contact__right{
+        max-width: 608px;
+    }
 }
 @media screen and (max-width: 1340px) {
     .container{
