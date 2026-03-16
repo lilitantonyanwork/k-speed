@@ -98,6 +98,24 @@
         max-width: calc(100% - 590px);
 
     }
+    .fast__row:first-child a, .fast__content h2{
+        font-size: 38px;
+    }
+    .fast__row p, .fast__row:last-child a{
+        font-size: 16px;
+    }
+    .fast__content{
+        padding: 30px;
+    }
+    .lk__right{
+        max-width: 480px;
+    }
+    .lk__left{
+        max-width: calc(100% - 480px);
+    }
+    .lk__left ul{
+        height: auto;
+    }
 }
 @media screen and (max-width: 1100px) {
     .repair__left {
@@ -115,6 +133,15 @@
     }
     .about-contact .contact__right{
         max-width: calc(100% - 650px);
+    }
+    .promotion__text{
+        font-size: 28px;
+    }
+    .promotion__title{
+        font-size: 20px;
+    }
+    .lk__left h2{
+        font-size: 38px;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -290,7 +317,52 @@
     .contact-page .repair__right{
         max-width: 100%;
     }
-
+    .diagnostics__content{
+        flex-direction: column;
+    }
+    .diagnostics__left{
+        max-width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        display: flex;
+    }
+    .diagnostics__item{
+        width: calc(100%/2 - 10px);
+        margin-bottom: 0;
+    }
+    .diagnostic__right{
+        max-width: 100%;
+    }
+    .diagnostic__right img{
+        width: 100%;
+    }
+    .fast__row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .comfort__content{
+        flex-direction: column;
+    }
+    .comfort__right{
+        max-width: 100%;
+        text-align: center;
+    }
+    .comfort__right img{
+        margin: 0 auto;
+    }
+    .comfort__left{
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+    .lk__right {
+        max-width: 400px;
+    }
+    .lk__left {
+        max-width: calc(100% - 400px);
+    }
 }
 
 @media screen and (max-width: 900px){
@@ -305,6 +377,7 @@
     .banner__right img{
         position: relative;
         max-width: 400px;
+        width: 100%;
     }
     .banner__left{
         max-width: 100%;
@@ -589,6 +662,42 @@
     .help__right{
         max-width: 100%;
     }
+    .promotion__list{
+        flex-direction: column;
+    }
+    .promotion{
+        padding-top: 60px;
+    }
+    .map-form__content{
+        flex-direction: column;
+    }
+    .map-form__left{
+        max-width: 100%;
+    }
+    .map-form__right{
+        max-width: 100%;
+    }
+    .lk__content{
+        flex-direction: column-reverse;
+        background: transparent;
+        gap: 0;
+    }
+    .lk__right{
+        max-width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .lk__right img{
+        position: relative;
+        max-width: 400px;
+    }
+    .lk__left{
+        background: url('../images/lkbg.png') no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        border-radius: 8px;
+    }
 }
 @media screen and (max-width: 768px){
     .header__top--content{
@@ -713,9 +822,36 @@
     .about .repair__right{
         padding-left: 0;
     }
+    .promotion__content{
+        padding: 25px;
+    }
+    .promotion__text {
+        font-size: 24px;
+    }
+    .diagnostics__item h3{
+        padding-right: 40px;
+        line-height: 1.3;
+    }
+    .diagnostic__form h3{
+        font-size: 30px;
+    }
+    .diagnostic__form{
+        padding: 0 30px 40px;
+    }
+    .diagnostic__form .form__row{
+        flex-direction: column;
+    }
+    .diagnostic__form .form__row input{
+        width: 100%;
+    }
+    .diagnostic__form .form__row .btn__red{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 600px){
-
+    .promotion__item{
+        height: 280px;
+    }
     .banner__title{
         font-size: 34px;
     }
@@ -869,6 +1005,51 @@
     .about .repair__right{
         padding-top: 0;
     }
+    .special-banner__right{
+        padding: 30px;
+        background-repeat: no-repeat;
+    }
+    .lk__left h2 {
+        font-size: 28px;
+    }
+    .lk__left li{
+        font-size: 16px;
+    }
+    .lk__left{
+        padding: 20px 30px;
+    }
+    .lk{
+        padding-top: 60px;
+    }
+    .comfort__left h2{
+        font-size: 28px;
+    }
+    .comfort__left h3{
+        font-size: 18px;
+    }
+    .comfort__left p{
+        font-size: 14px;
+    }
+    .fast__row:first-child a, .fast__content h2{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .fast__row p, .fast__row:last-child a{
+        text-align: center;
+    }
+    .diagnostics__item{
+        width: 100%;
+    }
+    .comfort__right{
+        height: auto;
+    }
+    .map-form{
+        padding-top: 80px;
+    }
+    .map-form__right .calculator-container{
+        flex-wrap: wrap;
+    }
 }
 @media  screen and (max-width: 480px) {
     .history__item{
@@ -989,5 +1170,22 @@
     }
     .contact-page .repair__right{
         padding-right: 30px;
+    }
+    .diagnostic__form h3 {
+        font-size: 24px;
+    }
+    .diagnostic__form p{
+        font-size: 16px;
+    }
+    .diagnostic__form label{
+        flex-wrap: wrap;
+    }
+    .diagnostics__item h3{
+        font-size: 18px;
+    }
+    .stores{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
     }
 }
