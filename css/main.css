@@ -769,7 +769,7 @@ input {
 .contact__content{
     height: 452px;
     background: url('../images/contact-bg.png') no-repeat;
-
+    gap: 35px;
     border-radius: 8px;
 }
 .contact__right{
@@ -2145,6 +2145,7 @@ summary::marker{
     max-width: calc(100% - 447px);
     background: #fff;
     border-radius: 8px;
+    height: fit-content;
 }
 .diagnostic__right img{
     margin-bottom: 40px;
@@ -2178,13 +2179,46 @@ summary::marker{
 .diagnostics__item .btn__plus{
     position: absolute;
     right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 26px;
     width: 38px;
     height: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: url('../images/plus.svg') #F91D1D no-repeat center;
+    border-radius: 100%;
+}
+.diagnostics__item.active .btn__plus{
+    background: url('../images/minus.svg') #F91D1D no-repeat center;
+}
+.diagnostic__body{
+    margin-top: 20px;
+    display: none;
+}
+.diagnostics__item.active .diagnostic__body{
+    display: flex;
+}
+.diagnostic__body ul{
+    padding-left: 20px;
+
+}
+.diagnostic__body li{
+    color: #111111;
+    margin-bottom: 3px;
+    line-height: 1.55;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+    position: relative;
+}
+.diagnostic__body li:before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
     background: #F91D1D;
     border-radius: 100%;
 }
@@ -2755,6 +2789,7 @@ body.no-scroll{
 }
 .promotion--page{
     padding-top: 20px;
+    padding-bottom: 70px;
 }
 .promotion--page .promotion__list{
     margin-top: 0;

@@ -25,4 +25,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
         body.classList.toggle('no-scroll');
 
     })
+
+    const diagnostic__btn = document.querySelectorAll('.diagnostics__item .btn__plus');
+
+    diagnostic__btn.forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.diagnostics__item').forEach(item => {
+                item.classList.remove('active');
+            });
+            btn.closest('.diagnostics__item').classList.add('active');
+        });
+    });
 });
