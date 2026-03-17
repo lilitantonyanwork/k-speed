@@ -1525,7 +1525,7 @@ footer{
     font-family: 'Russo One', sans-serif;
     text-transform: uppercase;
 }
-.project__item summary::marker{
+summary::marker{
     content: '';
 }
 .project__item details[open]{
@@ -2752,4 +2752,78 @@ body.no-scroll{
     width: 11px;
     height: 8px;
     top: 3px;
+}
+.promotion--page{
+    padding-top: 20px;
+}
+.promotion--page .promotion__list{
+    margin-top: 0;
+}
+.promotion-inner h2{
+    margin-top: 30px;
+}
+.promotion-inner{
+    padding-bottom: 40px;
+}
+.vacancies{
+    padding-top: 10px;
+}
+.vacancy{
+    background: #fff;
+    border-radius: 8px;
+    padding: 24px 30px;
+    margin-bottom: 10px;
+}
+.vacancy summary{
+    color: #111111;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+
+}
+.vacancy summary:before{
+    content: '';
+    width: 18px;
+    height: 13px;
+    background: url('../images/arrow-down.svg') no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    transition: all .3s;
+}
+.vacancy[open] summary:before{
+    transform: rotate(180deg);
+}
+.vacancy div{
+    margin-top: 30px;
+}
+.vacancy  p{
+    color: #646464;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.vacancy  ul{
+    padding-left: 20px;
+    list-style: disc;
+    margin-left: 5px;
+}
+.vacancy li{
+    color: #646464;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 400;
+
+}
+.vacancy .btn__red{
+    width: 213px;
+    height: 57px;
+    margin-top: 30px;
+}
+.vacancy-contact{
+    background: transparent;
+}
+.vacancy-contact .contact__content{
+    padding-left: 73px;
 }

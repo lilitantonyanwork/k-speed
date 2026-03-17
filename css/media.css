@@ -366,6 +366,9 @@
     .different__content{
         width: calc(100% - 60px);
     }
+    .vacancy-contact .contact__content{
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 900px){
@@ -671,6 +674,9 @@
     .promotion{
         padding-top: 60px;
     }
+    .promotion--page{
+        padding-top: 20px;
+    }
     .map-form__content{
         flex-direction: column;
     }
@@ -710,6 +716,34 @@
     .different__img img{
         width: 100%;
         height: auto;
+    }
+    .vacancy-contact .contact__content{
+        flex-direction: column;
+        gap: 0;
+        background: transparent;
+    }
+    .vacancy-contact .contact__right{
+        background: url('../images/contact-bg.png') no-repeat;
+        max-width: 100%;
+        border-radius: 8px;
+        padding: 30px;
+        background-size: cover  ;
+    }
+    .vacancy-contact .contact__left{
+        display: flex;
+        align-items: flex-end;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .vacancy-contact .contact__right h2,   .vacancy-contact .contact__right p{
+        text-align: center;
+    }
+    .vacancy-contact .contact__right form{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .vacancy-contact  .contact__right .calculator-container{
+        flex-wrap: wrap;
     }
 }
 @media screen and (max-width: 768px){
@@ -1107,6 +1141,15 @@
         overflow: auto;
     }
 
+    .vacancy{
+        padding: 15px;
+    }
+    .vacancy summary:before{
+        top: 6px;
+    }
+    .vacancy[open] summary:before{
+        top: 3px;
+    }
 }
 @media  screen and (max-width: 480px) {
     .history__item{
@@ -1248,5 +1291,8 @@
     .modal{
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+    .vacancy summary{
+        padding-right: 40px;
     }
 }
