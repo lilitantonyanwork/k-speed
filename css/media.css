@@ -363,6 +363,9 @@
     .lk__left {
         max-width: calc(100% - 400px);
     }
+    .different__content{
+        width: calc(100% - 60px);
+    }
 }
 
 @media screen and (max-width: 900px){
@@ -698,6 +701,16 @@
         max-width: 100%;
         border-radius: 8px;
     }
+    .different__list{
+        flex-direction: column;
+    }
+    .different__item{
+        width: 100%;
+    }
+    .different__img img{
+        width: 100%;
+        height: auto;
+    }
 }
 @media screen and (max-width: 768px){
     .header__top--content{
@@ -846,6 +859,19 @@
     }
     .diagnostic__form .form__row .btn__red{
         width: 100%;
+    }
+    .different{
+        padding-top: 80px;
+    }
+    .other-services{
+        padding-top: 80px;
+    }
+    .different__img{
+        height: auto;
+    }
+    .other-service__item{
+        gap: 20px;
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 600px){
@@ -1050,6 +1076,26 @@
     .map-form__right .calculator-container{
         flex-wrap: wrap;
     }
+    .different__content h3{
+        font-size: 20px;
+    }
+    .different__content li{
+        font-size: 16px;
+    }
+    .different__content{
+        padding: 20px;
+        width: calc(100% - 30px);
+    }
+    .other-service__item{
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+        text-align: center;
+    }
+    .faq{
+        padding-top: 80px;
+    }
+
 }
 @media  screen and (max-width: 480px) {
     .history__item{
