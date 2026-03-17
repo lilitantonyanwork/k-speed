@@ -2642,3 +2642,114 @@ footer{
     margin-bottom: 0;
 
 }
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111CC;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: all .3s;
+    display: none;
+}
+.modal.open{
+    display: flex;
+}
+.modal__content{
+    max-width: 460px;
+    width: 100%;
+
+    border-radius: 8px;
+}
+.modal__top{
+    position: relative;
+    height: 153px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.modal__top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body.no-scroll{
+    overflow: hidden;
+}
+.modal__close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.modal__body{
+    background: #fff;
+    padding: 20px 30px 30px;
+}
+.modal__title{
+    color: #111111;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Russo One", sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.modal__text{
+    color: #656565;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+}
+.modal .form__row{
+    width: 100%;
+}
+.modal .form__row label{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-bottom: 5px;
+}
+.modal input{
+    height: 49px;
+    width: 100%;
+    border: 1px solid #EAEAEF;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+.modal .btn__red{
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.modal .calculator-container{
+    color: #111111;
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: .5px;
+
+}
+.modal .calculator-container a{
+    margin-left: 5px;
+    color: #111111;
+    text-decoration: underline;
+}
+.modal .checkmark{
+    border-radius: 5px;
+    border: 1px solid #BEBEBE;
+    top:1px;
+}
+.modal .calculator-container input:checked ~ .checkmark{
+    border: 1px solid #BEBEBE;
+}
+.modal .calculator-container .checkmark:after{
+    background: url('../images/check-red.svg') no-repeat;
+    width: 11px;
+    height: 8px;
+    top: 3px;
+}

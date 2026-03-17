@@ -1095,6 +1095,17 @@
     .faq{
         padding-top: 80px;
     }
+    .modal .calculator-container{
+        flex-wrap: wrap;
+    }
+    .modal{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .modal__content{
+        height: 100%;
+        overflow: auto;
+    }
 
 }
 @media  screen and (max-width: 480px) {
@@ -1233,5 +1244,9 @@
         flex-direction: column;
         width: 100%;
         gap: 10px;
+    }
+    .modal{
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
