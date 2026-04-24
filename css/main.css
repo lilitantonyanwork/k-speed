@@ -682,6 +682,15 @@ input {
 .review__list{
     margin-top: 40px;
     gap: 20px;
+    padding-bottom: 40px;
+}
+.review__list .swiper-pagination-bullet{
+    background: #F91D1D;
+}
+.review__list .swiper-pagination{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 .review__item{
     background: #fff;

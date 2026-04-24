@@ -4,6 +4,29 @@ var swiper = new Swiper(".auto-gallery", {
         clickable: true,
     },
 });
+var swiper2 = new Swiper(".review__list", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+       0:{
+           slidesPerView: 1,
+       },
+        640: {
+            slidesPerView: 2,
+
+        },
+        // When window width is >= 1024px
+        1024: {
+            slidesPerView: 3,
+
+        },
+    },
+});
+
 
 document.addEventListener("DOMContentLoaded", (event) => {
     const menu = document.querySelector('header .nav');
